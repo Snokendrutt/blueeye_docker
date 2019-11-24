@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run blueeye
+docker run --rm blueeye

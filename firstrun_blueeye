@@ -1,4 +1,4 @@
-docker run --name blueeye -it blueeye
+docker run --name blueeye --rm -it blueeye
 #    -d  hiddeneye
 
 # Can Add

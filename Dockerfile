@@ -8,5 +8,5 @@ WORKDIR /root
 RUN git clone https://github.com/BullsEye0/blue_eye.git
 WORKDIR /root/blue_eye
 RUN pip install -r requirements.txt
-ENV xterm
+#ENV xterm
 ENTRYPOINT ["python", "/root/blue_eye/blue_eye.py"]

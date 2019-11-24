@@ -1,0 +1,3 @@
+docker container rm blueeye
+docker build -t blueeye  .
+./firstrun_blueeye

@@ -1,0 +1,4 @@
+#/bin/bash
+docker container rm blueeye
+docker image rm blueeye
+./buildit

@@ -1,4 +1,7 @@
 #/bin/bash
+#
+# Removes all containers and images and start the build...
+
 docker container rm blueeye
 docker image rm blueeye
 ./buildit

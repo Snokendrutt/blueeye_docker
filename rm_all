@@ -4,4 +4,14 @@
 
 docker container rm blueeye
 docker image rm blueeye
-./buildit
+read -p "Shall we build it again? " -n 1 -r
+echo    # (optional) move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+        echo -e "\e[31\Building it\e[39m"
+        ./buildit
+else
+        echo -e "\e[32mBuilding it\e[39m"
+        echo "Use buildit to build the docker image"
+fi
+

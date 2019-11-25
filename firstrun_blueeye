@@ -1,10 +1,9 @@
 docker run --name blueeye --rm -it blueeye
-#    -d  hiddeneye
 
-# Can Add
+# Some tips for adding
+# -d  for detach
 # --net network_name
 # -p 80:80 
-#-p 192.168.5.x:10100:80 
+#-p 192.168.x.x:10100:80 
 # --restart=unless-stopped
 # -v $(pwd)/directory:/root/directory
-#  --sysctl net.core.somaxconn=65535 \

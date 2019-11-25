@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# Goes into blueeye container if you want to take a look
+#
+docker exec -it blueeye bash

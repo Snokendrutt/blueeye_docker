@@ -10,8 +10,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
         echo -e "\e[31\Building it\e[39m"
         ./buildit
-else
-        echo -e "\e[32mBuilding it\e[39m"
-        echo "Use buildit to build the docker image"
+else        
+        echo "\e[32mUse buildit to build the docker image\e[39m"
 fi
 

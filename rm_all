@@ -11,6 +11,6 @@ then
         echo -e "\e[31\Building it\e[39m"
         ./buildit
 else        
-        echo "\e[32mUse buildit to build the docker image\e[39m"
+        echo "\e[32m\Use buildit to build the docker image\e[39m"
 fi
 

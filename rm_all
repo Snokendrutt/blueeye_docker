@@ -8,9 +8,9 @@ read -p "Shall we build it again? " -n 1 -r
 echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-        echo -e "\e[31\Building it\e[39m"
+        echo -e "\e[31\Building docker image\e[39m"
         ./buildit
 else        
-        echo "\e[32m\Use buildit to build the docker image\e[39m"
+        echo -e "\e[32mUse './buildit' to build the docker image\e[39m"
 fi
 
